@@ -3,9 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MHK School</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale1=1.0">
+    <meta name="description" content="mhk school">
+    <meta name="keywords" content="mhk school">
+    <meta name="theme-color" content="#ffffff">
+    <meta http-enuiv="X-UV-Compatible" content="IE=edge">
+    <meta name="robots" content="index, follow">
+
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="mhk school">
+    <meta property="og:description" content="Empowering minds, shaping futures through quality education.">
+    <meta property="og:image" content="./assets/images/logo/logo.png">
+    <meta property="og:image" content="https://">
+
+    <!-- Fevicon -->
+     <link rel="shortcut icon" href="./assets/img/favicon-32x32.png" type="image/x-icon">
+    <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" as="style">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
-<body>
-    
+<body class="antialiased text-gray-800 min-h-screen flex flex-col">
+    <section id="navbar" class="sticky top0 z-50 bg-white shadow-md">
+        <nav class="container mx-auto px-4 py-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <span class="text-2xl font-bold text-blue-800">
+                        MHK School
+                    </span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                  <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-blue-600 transition-colors">Home</a>
+                    <a href="#about" class="text-gray-700 hover:text-blue-600 transition-colors">About</a>
+                    <a href="#academics" class="text-gray-700 hover:text-blue-600 transition-colors">Academics</a>
+                    <a href="#facilities" class="text-gray-700 hover:text-blue-600 transition-colors">Facilities</a>
+                    <a href="#admissions" class="text-gray-700 hover:text-blue-600 transition-colors">Admissions</a>
+                    <a href="#contect" class="text-gray-700 hover:text-blue-600 transition-colors">Contact</a>
+                  </div>
+                   <!-- Mobile Menu Button -->
+                <button class="md:hidden p-2 rounded-md hover:bg-gray-100" aria-label="Toggle menu" id="mobileMenu">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            <!-- Mobile Navigation -->
+      <div class="md:hidden hidden" id="mobileMenu">
+        <div class="px-2 pt-2 pb-3 space-y-1">
+          <a href="#home" class="block px-3 py-2 text-gray-700 hover:bg-blue-50 rounded-md">Home</a>
+          <a href="#about" class="block px-3 py-2 text-gray-700 hover:bg-blue-50 rounded-md">About</a>
+          <a href="#academics" class="block px-3 py-2 text-gray-700 hover:bg-blue-50 rounded-md">Academics</a>
+          <a href="#facilities" class="block px-3 py-2 text-gray-700 hover:bg-blue-50 rounded-md">Facilities</a>
+          <a href="#admissions" class="block px-3 py-2 text-gray-700 hover:bg-blue-50 rounded-md">Admissions</a>
+          <a href="#contact" class="block px-3 py-2 bg-blue-600 text-white rounded-md">Contact Us</a>
+        </div>
+      </div>
+        </nav>
+    </section>
+    <section id="home" class="relative bg-gradient-to-r from-blue-900 to-blue-700 min-h-screen flex flex-center">
+      <div class="container mx-auto  px-4 z-10 py-20">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div class="text-white space-y-6">
+            <h1 class="text-4xl md:text-6xl font-bold leading-light animate-fade-in">
+              Shaping Tomorrow's Leaders Today
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-200 animate-slide-up">Discover a world of possiblities at MHK School where excellence meets innovation in education</p>
+            <div class="flex flex-wrap gap-4 pt-6">
+              <button class="bg-white text-blue-800 hover:bg-blue-100 px-8 py-3 rounded-full font-semibold transition-all transform hover:scale-105">Apply Now</button>
+              <button class="text-white border-2 border-white hover:bg-white hover:text-blue-800 px-8 py-3 rounded-full font-semibold transition-all">Virtual Tour</button>
+            </div>
+              <div class="flex items-center space-x-8 pt-8">
+                <div class="text-center">
+                  <div class="text-4xl font-bold">1500</div>
+                  <div class="text-sm text-gray-300">Students</div>
+                </div>
+                <div class="text-center">
+                  <div class="text-4xl font-bold">100%</div>
+                  <div class="text-sm text-gray-300">Success Rate</div>
+                </div>
+                <div class="text-center">
+                  <div class="text-4xl font-bold">50+</div>
+                  <div class="text-sm text-gray-300">Programs</div>
+                </div>
+              </div>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+      <script src="https://cdn.tailwindcss.com"></script>
 </body>
 </html>
